@@ -1,0 +1,134 @@
+/* Medias */
+/* Inicio */
+
+
+@media screen and (max-width: 723px){
+    body {
+        line-height: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 465px){
+    .header .logo{
+        display: none;
+    }
+    .header .enlace ul {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header .enlaces a {
+        font-size: 1.3rem;;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .titulo {
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .titulo {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1241px){
+    .navegacion {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1241px){
+    .menuHamburguesa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .titulo {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 2560px){
+    .d-block {
+        height: 40rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .d-block {
+        height: 20rem;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .d-block {
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+/* Fin inicio*/
+
+/* Footer */
+
+@media screen and (max-width: 376px){
+    .derechos {
+        height: auto;
+    }
+}
+
+/* Discografia */
+
+@media screen and (max-width: 1024px){
+    .contenedor3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+    }
+}
+
+/* Imagenes discos */
+
+@media screen and (min-width: 321px){
+    .imagenUno {
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .row {
+        justify-content: center;
+    }
+}
+
+/* Fin discografia */
+
+/* Contactanos */
+
+@media screen and (max-width: 723px){
+    .input {
+        width: 18rem;
+    }
+}
