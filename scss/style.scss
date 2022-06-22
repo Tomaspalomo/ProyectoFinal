@@ -318,20 +318,17 @@ p {
 /* Ubicacion del concierto */
 .ubicacion1 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .ubicacion2 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .ubicacion3 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 /* Fin ubicacion del concierto */
@@ -339,20 +336,17 @@ p {
 /* Horario del concierto */
 .horario1 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .horario2 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .horario3 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 /* Fin horario concierto */
@@ -361,20 +355,17 @@ p {
 
 .precio1 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .precio2 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 .precio3 {
     color: $color-principal;
-    text-align: center;
-    margin-top: 10px;
+    @include centrar-fuente;
 }
 
 /* Fin precios */

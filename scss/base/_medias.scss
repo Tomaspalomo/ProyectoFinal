@@ -1,7 +1,7 @@
 /* Medias */
 /* Inicio */
 
-
+/*Primera pagina*/
 @media screen and (max-width: 723px){
     body {
         line-height: 1.8rem;
@@ -40,7 +40,6 @@
     }
 }
 
-
 @media screen and (min-width: 1241px){
     .menuHamburguesa {
         display: none;
@@ -52,6 +51,8 @@
         font-size: 1.8rem;
     }
 }
+
+/*Carrusel */
 
 @media screen and (max-width: 2560px){
     .d-block {
@@ -73,6 +74,7 @@
         width: 10rem;
     }
 }
+/* Fin carrusel*/
 
 /* Fin inicio*/
 
@@ -105,21 +107,21 @@
     }
 }
 
-@media screen and (max-width: 425px){
-    .row {
-        justify-content: center;
+@media screen and (min-width: 375px){
+    .imagenUno {
+        margin-left: 1.9rem;
     }
 }
 
-@media screen and (max-width: 375px){
-    .row {
-        justify-content: center;
+@media screen and (min-width: 1024px){
+    .imagenDos {
+        margin-right: 2.5rem;
     }
 }
 
-@media screen and (max-width: 320px){
-    .row {
-        justify-content: center;
+@media screen and (min-width: 683px){
+    .imagenDos {
+        margin-right: 2.5rem;
     }
 }
 
@@ -132,3 +134,5 @@
         width: 18rem;
     }
 }
+
+/*Fin contactanos*/
