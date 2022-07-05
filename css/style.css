@@ -6,7 +6,7 @@
   body {
     line-height: 1.8rem; } }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 570px) {
   .header .logo {
     display: none; }
   .header .enlace ul {
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 375px) {
   .imagenUno {
-    margin-left: 1.9rem; } }
+    margin-left: 2.3rem; } }
 
 @media screen and (min-width: 1024px) {
   .imagenDos {
